@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigup form</title>
+    <title>Signup form</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <form action="noaction.php">
+        <form action="">
             <div class="form-box">
                 <h1 class="heading">Sign up</h1>
                 <div class="input-group">
-                    <div class="input-field">
+                    <div class="input-field" id="name-field">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                             <path d="M6.57757 15.4816C5.1628 16.324 1.45336 18.0441 3.71266 20.1966C4.81631 21.248 6.04549 22 7.59087 22H16.4091C17.9545 22 19.1837 21.248 20.2873 20.1966C22.5466 18.0441 18.8372 16.324 17.4224 15.4816C14.1048 13.5061 9.89519 13.5061 6.57757 15.4816Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M16.5 6.5C16.5 8.98528 14.4853 11 12 11C9.51472 11 7.5 8.98528 7.5 6.5C7.5 4.01472 9.51472 2 12 2C14.4853 2 16.5 4.01472 16.5 6.5Z" stroke="currentColor" stroke-width="1.5" />
                         </svg>
                         <input type="text" placeholder="Name" id="input-Name">
                     </div>
-    
+
                     <div class="input-field">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                             <path d="M7 7.5L9.94202 9.23943C11.6572 10.2535 12.3428 10.2535 14.058 9.23943L17 7.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -28,7 +28,7 @@
                         </svg>
                         <input type="email" placeholder="Email" id="input-Email">
                     </div>
-    
+
                     <div class="input-field">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000" fill="none">
                             <path d="M13.4082 16.6682C13.4082 16.6682 14.0332 16.6682 14.6582 18.0015C14.6582 18.0015 16.6435 14.6682 18.4082 14.0015" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
@@ -41,12 +41,10 @@
                         <input type="password" placeholder="Password" id="input-Password">
                     </div>
                 </div>
-                <p>Forget Password ?<a href="#click-here">Click Here</a></p>
+                <p>Forget Password? <a href="#click-here">Click Here</a></p>
                 <button type="button" class="btn" id="signinbtn"> Sign in</button>
                 <button type="button" class="btn" id="signupbtn"> Sign up</button>
-
             </div>
-
         </form>
     </div>
     <script src="script.js"></script>
